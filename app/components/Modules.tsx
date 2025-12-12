@@ -45,7 +45,7 @@ export default function Modules() {
                 {modules.map((mod) => (
                     <div
                         key={mod.id} className="group relative h-[450px] md:h-[500px] w-full rounded-2xl overflow-hidden 
-                    hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)] cursor-pointer hover:-translate-y-2 transition-shadow duration-300"
+                    hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,0.6)] cursor-pointer hover:-translate-y-2 transition-transform duration-300"
                     >
                         {/* Imagem de Fundo */}
                         <Image
