@@ -6,7 +6,7 @@ import Modules from "./components/Modules";
 
 export default function Home() {
   return (
-    <main className="bg-brand-cream max-w-7xl mx-auto">
+    <main className="max-w-7xl mx-auto">
       <Hero />
       <Bio />
       <Modules />

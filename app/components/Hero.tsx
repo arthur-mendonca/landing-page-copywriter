@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { PenTool } from "lucide-react";
+import KiwifiLogo from "../resources/svg/Kiwifi";
+
 
 export default function Hero() {
     return (
-        <section className="relative w-full px-6 pt-12 flex flex-col md:flex-row items-center justify-between overflow-hidden">
+        <section className="relative bg-brand-cream w-full px-6 pt-12 flex flex-col md:flex-row items-center justify-between overflow-hidden">
             {/* Coluna de Texto */}
             <div className="w-full md:w-1/2 space-y-6 z-10">
                 <div className="flex items-center gap-2 text-brand-gold italic">
@@ -25,12 +27,15 @@ export default function Hero() {
                 </p>
 
                 <div className="pt-4 space-y-4">
-                    <button className="bg-linear-to-r from-brand-brown to-brand-gold text-white px-8 py-4 rounded-r-2xl font-bold tracking-wider transition-all uppercase text-sm shadow-xl">
+                    <button
+                        className="bg-linear-to-r from-brand-brown to-brand-gold text-white px-8 py-4 
+                    rounded-r-2xl font-bold tracking-wider transition-all uppercase text-sm shadow-xl"
+                    >
                         Garantir minha vaga
                     </button>
 
                     <div className="flex items-center gap-2 text-xs text-brand-brown font-semibold opacity-70">
-                        <span>🔒 kiwify | Compra segura</span>
+                        <span className="flex items-center gap-2"> <KiwifiLogo width={60} className="text-brand-brown" /> | Compra segura</span>
                     </div>
                 </div>
             </div>
@@ -48,7 +53,8 @@ export default function Hero() {
                         height={1080}
                         src="/influencer-1.webp"
                         alt="foto da mentora"
-                        className="object-cover w-full h-full rounded-b-full bg-radial-[at_30%_10%] from-brand-cream-2 to-yellow-950 to-75% md:bg-none md:rounded-none drop-shadow-2xl"
+                        className="object-cover w-full h-full rounded-b-full bg-radial-[at_30%_10%] from-brand-cream-2 
+                        to-yellow-950 to-75% md:bg-none md:rounded-none drop-shadow-2xl"
                     />
                 </div>
             </div>
