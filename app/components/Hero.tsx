@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { PenTool } from "lucide-react";
 import KiwifiLogo from "../resources/svg/Kiwifi";
+import Link from "next/link";
 
 
 export default function Hero() {
@@ -26,20 +27,21 @@ export default function Hero() {
                     tudo isso estudando no seu ritmo, no seu tempo e no seu espaço.
                 </p>
 
-                <div className="pt-4 space-y-4">
-                    <button
-                        className="bg-linear-to-r from-brand-brown to-brand-gold text-white px-8 py-4 
+                <div className="pt-4 space-y-2 flex flex-col ">
+                    <Link href="/checkout">
+                        <button
+                            className="bg-linear-to-r from-brand-brown to-brand-gold text-white px-8 py-4 
                     rounded-r-2xl font-bold tracking-wider transition-all uppercase text-sm shadow-xl cursor-pointer hover:scale-105"
-                    >
-                        Garantir minha vaga
-                    </button>
+                        >
+                            Garantir minha vaga
+                        </button>
+                    </Link>
 
                     <div className="flex items-center gap-2 text-xs text-brand-brown font-semibold opacity-70">
                         <span className="flex items-center gap-2"> <KiwifiLogo width={60} className="text-brand-brown" /> | Compra segura</span>
                     </div>
                 </div>
             </div>
-            {/* bg-blend-hard-light from-brand-brown to-brand-gold */}
             {/* Coluna de Imagem */}
             <div className="w-full md:w-1/2 mt-12 md:mt-0 relative flex justify-center md:justify-end mr-10">
                 <div className="absolute hidden md:block bottom-10 w-[70%] h-[80%] bg-radial-[at_30%_10%] from-brand-cream-2 to-yellow-950 to-75% 

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const modules = [
     {
@@ -73,12 +74,14 @@ export default function Modules() {
             </div>
 
             <div className="mt-16">
-                <button
-                    className="z-10 relative bg-linear-to-r from-brand-brown to-brand-gold text-white px-10 py-4 rounded-r-2xl tracking-widest uppercase 
+                <Link href="/checkout">
+                    <button
+                        className="z-10 relative bg-linear-to-r from-brand-brown to-brand-gold text-white px-10 py-4 rounded-r-2xl tracking-widest uppercase 
                 text-sm font-medium shadow-xl border border-brand-gold/80 cursor-pointer hover:scale-105 transition-transform"
-                >
-                    Quero minha vaga
-                </button>
+                    >
+                        Quero minha vaga
+                    </button>
+                </Link>
             </div>
         </section>
     );
