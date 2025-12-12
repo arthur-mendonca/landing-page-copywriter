@@ -51,6 +51,7 @@ export default function Hero() {
 
                 <div className="relative w-[350px] h-[500px] md:w-[400px] md:h-[600px] mt-10 bottom-10 md:bottom-0 z-10">
                     <Image
+                        preload={true}
                         width={1920}
                         height={1080}
                         src="/influencer-1.webp"

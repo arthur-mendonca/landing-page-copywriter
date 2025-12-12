@@ -1,12 +1,11 @@
 
 import { ArrowLeft, Lock, ShieldCheck } from "lucide-react";
 import Link from "next/link";
-import CheckoutForm from "../components/checkout/CheckoutForm";
-import OrderSummary from "../components/checkout/OrderSummary";
+import CheckoutForm from "../../components/checkout/CheckoutForm";
+import OrderSummary from "../../components/checkout/OrderSummary";
 
 export default function CheckoutPage() {
     return (
-        // Reutilizando o fundo claro
         <div className="min-h-screen bg-brand-cream py-10 px-4 md:px-8 lg:px-16">
 
             {/* Header com link de retorno */}
@@ -29,7 +28,7 @@ export default function CheckoutPage() {
                         Finalize sua Inscrição
                     </h1>
 
-                    {/* O Formulário */}
+                    {/* Formulário */}
                     <CheckoutForm />
                 </div>
 
@@ -40,7 +39,7 @@ export default function CheckoutPage() {
 
             </main>
 
-            {/* Footer minimalista de segurança */}
+            {/* Footer */}
             <footer className="max-w-7xl mx-auto mt-16 text-center text-xs text-brand-gray">
                 <p className="flex items-center justify-center gap-2">
                     <ShieldCheck size={14} className="text-brand-gold" />
