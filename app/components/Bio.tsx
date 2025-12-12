@@ -20,7 +20,7 @@ export default function Bio() {
 
                         {/* Imagem */}
                         <Image
-                            preload={true}
+                            loading="eager"
                             width={1920}
                             height={1080}
                             src="/influencer-bio.webp"

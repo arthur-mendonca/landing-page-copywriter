@@ -49,6 +49,7 @@ export default function Modules() {
                     >
                         {/* Imagem de Fundo */}
                         <Image
+                            loading="eager"
                             width={1920}
                             height={1080}
                             src={mod.image}
