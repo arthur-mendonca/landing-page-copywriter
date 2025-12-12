@@ -1,8 +1,9 @@
 
 import { ArrowLeft, Lock, ShieldCheck } from "lucide-react";
 import Link from "next/link";
-import CheckoutForm from "../../components/checkout/CheckoutForm";
-import OrderSummary from "../../components/checkout/OrderSummary";
+import CheckoutForm from "./components/CheckoutForm";
+import OrderSummary from "./components/OrderSummary";
+
 
 export default function CheckoutPage() {
     return (
