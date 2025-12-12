@@ -1,6 +1,7 @@
 "use client"
-import CheckoutController from '@/app/controllers/checkout/CheckoutControllers';
+
 import { User, Mail, CreditCard, DollarSign } from 'lucide-react';
+import CheckoutController from '../controllers/checkout/CheckoutControllers';
 
 export default function CheckoutForm() {
     const { setStep, step, loading, handleSubmit } = CheckoutController();
