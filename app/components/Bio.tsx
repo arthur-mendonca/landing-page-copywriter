@@ -40,16 +40,19 @@ export default function Bio() {
 
                     <div className="space-y-4 text-gray-300 font-light leading-relaxed text-sm md:text-base">
                         <p>
-                            <strong className="text-white">Gabi Viriato</strong>, a copywriter que transformou a sua paixão em um negócio de sucesso.
-                            É a fundadora da Grit, uma empresa de excelência em copy, junto com sua sócia Izabella.
+                            <strong className="text-white">Juliana Montes</strong> não apenas escreve; ela converte.
+                            Transformou a habilidade de escrita em um império digital e é a mente por trás da {" "}
+                            <em>Lumina Copy</em>, agência referência no setor fundada em parceria com Mariana Silva.
                         </p>
                         <p>
-                            Gabi tem uma carreira de sucesso na área de copy, já trabalhou com grandes nomes do mercado,
-                            como Stella Saderio, e já ajudou centenas de pessoas a se tornarem profissionais de sucesso nessa área.
+                            Com uma trajetória consolidada nos bastidores, Juliana já liderou as estratégias de
+                            lançamentos multimilionários de players como Ricardo Viana. Sua metodologia validada
+                            já formou centenas de profissionais que hoje dominam o mercado digital.
                         </p>
                         <p>
-                            Ela sabe como ninguém como usar as palavras para persuadir, engajar e impactar o público.
-                            E ela quer compartilhar com você todo o seu conhecimento e experiência no curso de Copywriting.
+                            O domínio da persuasão e da escrita intencional é o seu diferencial. Agora, ela
+                            condensou anos de prática e estratégias de alto nível neste treinamento, pronta para
+                            entregar a você o mapa completo da escrita lucrativa.
                         </p>
                     </div>
                 </div>

@@ -29,7 +29,7 @@ export default function Hero() {
                 <div className="pt-4 space-y-4">
                     <button
                         className="bg-linear-to-r from-brand-brown to-brand-gold text-white px-8 py-4 
-                    rounded-r-2xl font-bold tracking-wider transition-all uppercase text-sm shadow-xl"
+                    rounded-r-2xl font-bold tracking-wider transition-all uppercase text-sm shadow-xl cursor-pointer hover:scale-105"
                     >
                         Garantir minha vaga
                     </button>
