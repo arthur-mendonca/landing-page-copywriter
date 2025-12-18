@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { PenTool } from "lucide-react";
-import KiwifiLogo from "../resources/svg/Kiwifi";
+
 import Link from "next/link";
+import KiwifiLogo from "@/app/resources/svg/Kiwifi";
 
 
 export default function Hero() {
@@ -49,7 +50,7 @@ export default function Hero() {
                 <div className="absolute hidden md:block top-14 right-10 w-[75%] h-[80%] border-2 border-orange-800 rounded-[3rem] z-2" />
                 <div className="absolute hidden md:block top-48 left-32 w-[89%] h-[80%] border-2 border-yellow-900 rounded-[3rem] z-3" />
 
-                <div className="relative w-[350px] h-[500px] md:w-[400px] md:h-[600px] mt-10 bottom-10 md:bottom-0 z-10">
+                <div className="relative pl-10 md:pl-0 w-[350px] h-[500px] md:w-[400px] md:h-[600px] mt-10 bottom-10 md:bottom-0 z-10">
                     <Image
                         preload={true}
                         fetchPriority="high"

@@ -12,9 +12,6 @@ export default function MarketingLayout({
 }>) {
     return (
         <div className="bg-brand-brown text-brand-dark min-h-screen selection:bg-brand-gold/30 max-w-7xl mx-auto">
-            {/* Este layout aplica o tema "Marketing" (fundo claro) 
-        a todas as páginas dentro do grupo (marketing) 
-      */}
             {children}
         </div>
     );

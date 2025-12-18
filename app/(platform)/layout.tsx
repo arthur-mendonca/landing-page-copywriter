@@ -1,5 +1,6 @@
 
 import type { Metadata } from "next";
+import { Menu } from "lucide-react";
 import Sidebar from "./ui/Sidebar";
 
 export const metadata: Metadata = {
@@ -25,7 +26,9 @@ export default function PlatformLayout({
             <main className="flex-1 min-h-screen relative overflow-x-hidden md:pl-20">
                 {/* Topo Mobile (Opcional - caso queira implementar depois para celular) */}
                 <div className="md:hidden p-4 border-b border-white/10 bg-[#0A0A0A] flex justify-between items-center sticky top-0 z-40">
-                    <span className="font-serif text-brand-gold">Menu Mobile aqui</span>
+                    <span className="flex items-center gap-2 font-serif text-brand-gold">
+                        <Menu size={22} />
+                    </span>
                 </div>
 
                 {/* Área de renderização das páginas (Dashboard, Aulas, etc) */}
